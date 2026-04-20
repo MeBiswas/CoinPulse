@@ -3,7 +3,7 @@ import json
 import logging
 
 from datetime import datetime
-from utils import PATHS, api_key, fetch_data, ENDPOINTS
+from src.utils import PATHS, api_key, fetch_data, ENDPOINTS
 
 # Gobal
 logging.basicConfig(level=logging.INFO)
