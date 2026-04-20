@@ -3,7 +3,7 @@ from airflow import DAG
 from datetime import datetime
 from src.load import load_data
 from airflow.operators.python import PythonOperator
-from src.ingestion import fetch_data, save_raw_dataset
+from extraction import fetch_data, save_raw_dataset
 from src.transformation import transform_data, load_latest_file
 
 def pipeline():
