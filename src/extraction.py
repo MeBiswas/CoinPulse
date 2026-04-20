@@ -7,8 +7,14 @@ from src.utils import PATHS, api_key, fetch_data, ENDPOINTS
 
 # Gobal
 logging.basicConfig(level=logging.INFO)
+
+# URL
 coin_list_url = ENDPOINTS['bitcoin_list']
 crypto_price_url = ENDPOINTS['bitcoin_market_price_data']
+
+# Timestamp
+time_format = "%Y%m%d_%H%M%S"
+timestamp = datetime.now().strftime(time_format)
 
 def fetch_fact_crypto_prices_data():
     if not api_key:
@@ -39,9 +45,6 @@ def save_raw_dataset(data, dataset_name):
         return
     
     try:
-        time_format = "%Y%m%d_%H%M%S"
-        timestamp = datetime.now().strftime(time_format)
-        
         # Create dataset-specific folder
         dir_path = PATHS['raw'] / dataset_name
         dir_path.mkdir(parents=True, exist_ok=True)
