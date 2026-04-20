@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 
 from glob import glob
-from utils import PATHS
+from src.utils import PATHS
 
 # Gobal
 logging.basicConfig(level=logging.INFO)
@@ -35,7 +35,7 @@ def transform_crypto_price_data(data):
     try:
         for x, y in data.items():
             records.append({
-                "coin": x,
+                "coin_id": x,
                 "price_usd": y['usd']
             })
             
@@ -53,7 +53,7 @@ def transform_coin_data(data):
     
     try:
         df = pd.DataFrame(data)
-        new_df = df.loc[:, ['id', 'symbol', 'name']]
+        new_df = df.loc[:, ['id', 'symbol', 'name']].rename(columns={'id': 'coin_id'})
         return new_df
     except Exception as e:
         logging.error(f"Error occured: {e}")
@@ -85,7 +85,7 @@ def save_processed(df, dataset_name):
 if __name__ == "__main__":
     crypto_data = load_latest_file('crypto_price')
     df = transform_crypto_price_data(crypto_data)
-    save_processed(df)
+    save_processed(df, 'crypto_price')
     
     coin_data = load_latest_file('coin_data')
     coin_data_df = transform_coin_data(coin_data)

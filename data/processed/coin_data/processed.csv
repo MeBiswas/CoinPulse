@@ -1,251 +1,251 @@
-id,symbol,name
+coin_id,symbol,name
 bitcoin,btc,Bitcoin
 ethereum,eth,Ethereum
 tether,usdt,Tether
-binancecoin,bnb,BNB
 ripple,xrp,XRP
+binancecoin,bnb,BNB
 usd-coin,usdc,USDC
 solana,sol,Solana
 tron,trx,TRON
 figure-heloc,figr_heloc,Figure Heloc
 dogecoin,doge,Dogecoin
-usds,usds,USDS
 whitebit,wbt,WhiteBIT Coin
+usds,usds,USDS
+hyperliquid,hype,Hyperliquid
 leo-token,leo,LEO Token
 cardano,ada,Cardano
 bitcoin-cash,bch,Bitcoin Cash
-hyperliquid,hype,Hyperliquid
 chainlink,link,Chainlink
-ethena-usde,usde,Ethena USDe
 monero,xmr,Monero
+memecore,m,MemeCore
 canton-network,cc,Canton
 stellar,xlm,Stellar
-memecore,m,MemeCore
+ethena-usde,usde,Ethena USDe
+zcash,zec,Zcash
 dai,dai,Dai
 usd1-wlfi,usd1,USD1
-zcash,zec,Zcash
 litecoin,ltc,Litecoin
 paypal-usd,pyusd,PayPal USD
 avalanche-2,avax,Avalanche
 hedera-hashgraph,hbar,Hedera
+sui,sui,Sui
 rain,rain,Rain
 shiba-inu,shib,Shiba Inu
-sui,sui,Sui
 the-open-network,ton,Toncoin
-world-liberty-financial,wlfi,World Liberty Financial
 crypto-com-chain,cro,Cronos
-bittensor,tao,Bittensor
 hashnote-usyc,usyc,Circle USYC
 tether-gold,xaut,Tether Gold
-pax-gold,paxg,PAX Gold
 blackrock-usd-institutional-digital-liquidity-fund,buidl,BlackRock USD Institutional Digital Liquidity Fund
-mantle,mnt,Mantle
+world-liberty-financial,wlfi,World Liberty Financial
+pax-gold,paxg,PAX Gold
+bittensor,tao,Bittensor
+global-dollar,usdg,Global Dollar
 polkadot,dot,Polkadot
 uniswap,uni,Uniswap
-global-dollar,usdg,Global Dollar
-pi-network,pi,Pi Network
-okb,okb,OKB
+mantle,mnt,Mantle
 falcon-finance,usdf,Falcon USD
 sky,sky,Sky
-aster-2,aster,Aster
+pi-network,pi,Pi Network
 near,near,NEAR Protocol
+okb,okb,OKB
+aster-2,aster,Aster
 htx-dao,htx,HTX DAO
-usdd,usdd,USDD
-aave,aave,Aave
 pepe,pepe,Pepe
+janus-henderson-anemoy-treasury-fund,jtrsy,Janus Henderson Anemoy Treasury Fund
 ripple-usd,rlusd,Ripple USD
+aave,aave,Aave
+usdd,usdd,USDD
+internet-computer,icp,Internet Computer
+ondo-us-dollar-yield,usdy,Ondo US Dollar Yield
+bfusd,bfusd,BFUSD
 bitget-token,bgb,Bitget Token
 ethereum-classic,etc,Ethereum Classic
-bfusd,bfusd,BFUSD
-ondo-us-dollar-yield,usdy,Ondo US Dollar Yield
-internet-computer,icp,Internet Computer
 ondo-finance,ondo,Ondo
-janus-henderson-anemoy-treasury-fund,jtrsy,Janus Henderson Anemoy Treasury Fund
-gatechain-token,gt,Gate
 kucoin-shares,kcs,KuCoin
-algorand,algo,Algorand
+gatechain-token,gt,Gate
 quant-network,qnt,Quant
-superstate-short-duration-us-government-securities-fund-ustb,ustb,Superstate Short Duration U.S. Government Securities Fund (USTB)
+morpho,morpho,Morpho
 pump-fun,pump,Pump.fun
+eutbl,eutbl,Spiko EU T-Bills Money Market Fund
+ethena,ena,Ethena
+united-stables,u,United Stables
+kaspa,kas,Kaspa
 polygon-ecosystem-token,pol,POL (ex-MATIC)
 render-token,render,Render
-eutbl,eutbl,Spiko EU T-Bills Money Market Fund
-kaspa,kas,Kaspa
-usdtb,usdtb,USDtb
-nexo,nexo,NEXO
+algorand,algo,Algorand
 cosmos,atom,Cosmos Hub
+nexo,nexo,NEXO
+usdtb,usdtb,USDtb
+superstate-short-duration-us-government-securities-fund-ustb,ustb,Superstate Short Duration U.S. Government Securities Fund (USTB)
 worldcoin-wld,wld,Worldcoin
-morpho,morpho,Morpho
-midnight-3,night,Midnight
-ethena,ena,Ethena
+blockchain-capital,bcap,Blockchain Capital
+arbitrum,arb,Arbitrum
 aptos,apt,Aptos
-ousg,ousg,OUSG
-official-trump,trump,Official Trump
 filecoin,fil,Filecoin
+dexe,dexe,DeXe
 flare-networks,flr,Flare
+official-trump,trump,Official Trump
+hash-2,hash,Provenance Blockchain
+just,jst,JUST
+beldex,bdx,Beldex
+midnight-3,night,Midnight
+jupiter-exchange-solana,jup,Jupiter
+ousg,ousg,OUSG
 vechain,vet,VeChain
 ylds,ylds,YLDS
-beldex,bdx,Beldex
-xdce-crowd-sale,xdc,XDC Network
-hash-2,hash,Provenance Blockchain
 gho,gho,GHO
-jupiter-exchange-solana,jup,Jupiter
+xdce-crowd-sale,xdc,XDC Network
 stable-2,stable,​​Stable
-arbitrum,arb,Arbitrum
 usual-usd,usd0,Usual USD
-fetch-ai,fet,Artificial Superintelligence Alliance
-just,jst,JUST
 bonk,bonk,Bonk
+pancakeswap-token,cake,PancakeSwap
 true-usd,tusd,TrueUSD
 a7a5,a7a5,A7A5
-pancakeswap-token,cake,PancakeSwap
-layerzero,zro,LayerZero
-virtual-protocol,virtual,Virtuals Protocol
-euro-coin,eurc,EURC
-dexe,dexe,DeXe
-chiliz,chz,Chiliz
-janus-henderson-anemoy-aaa-clo-fund,jaaa,Janus Henderson Anemoy AAA CLO Fund
-pudgy-penguins,pengu,Pudgy Penguins
-first-digital-usd,fdusd,First Digital USD
-blockstack,stx,Stacks
-dash,dash,Dash
 siren-2,siren,Siren
-tezos,xtz,Tezos
-hastra-prime,prime,PRIME
-sei-network,sei,Sei
-usx,usx,USX
-kinesis-gold,kau,Kinesis Gold
-adi-token,adi,ADI
-decred,dcr,Decred
-ether-fi,ethfi,Ether.fi
-sun-token,sun,Sun Token
-apenft,nft,AINFT
-venice-token,vvv,Venice Token
-mantra-dao,om,MANTRA [Old]
-bitcoin-cash-sv,bsv,Bitcoin SV
-curve-dao-token,crv,Curve DAO
-gnosis,gno,Gnosis
-bittorrent,btt,BitTorrent
-usdai,usdai,USDai
+fetch-ai,fet,Artificial Superintelligence Alliance
 edgex,edge,edgeX
+adi-token,adi,ADI
+virtual-protocol,virtual,Virtuals Protocol
+pudgy-penguins,pengu,Pudgy Penguins
+chiliz,chz,Chiliz
+dash,dash,Dash
+euro-coin,eurc,EURC
+bianrensheng,币安人生,币安人生 (BinanceLife)
+layerzero,zro,LayerZero
+first-digital-usd,fdusd,First Digital USD
+venice-token,vvv,Venice Token
+blockstack,stx,Stacks
+janus-henderson-anemoy-aaa-clo-fund,jaaa,Janus Henderson Anemoy AAA CLO Fund
+tezos,xtz,Tezos
+ether-fi,ethfi,Ether.fi
+usx,usx,USX
+sei-network,sei,Sei
+hastra-prime,prime,PRIME
+kinesis-gold,kau,Kinesis Gold
 monad,mon,Monad
+sun-token,sun,Sun Token
 aerodrome-finance,aero,Aerodrome Finance
-zebec-network,zbcn,Zebec Network
-plasma,xpl,Plasma
-injective-protocol,inj,Injective
-kaia,kaia,Kaia
-doublezero,2z,DoubleZero
-frax,frax,Legacy Frax Dollar
-iota,iota,IOTA
-conflux-token,cfx,Conflux
-lido-dao,ldo,Lido DAO
-official-fo,fo,Official FO
-kite-2,kite,Kite
-crvusd,crvusd,crvUSD
-kinesis-silver,kag,Kinesis Silver
+decred,dcr,Decred
 celestia,tia,Celestia
-jasmycoin,jasmy,JasmyCoin
+curve-dao-token,crv,Curve DAO
+apenft,nft,AINFT
+mantra-dao,om,MANTRA [Old]
+injective-protocol,inj,Injective
+bittorrent,btt,BitTorrent
+gnosis,gno,Gnosis
+bitcoin-cash-sv,bsv,Bitcoin SV
+lido-dao,ldo,Lido DAO
+conflux-token,cfx,Conflux
+kinesis-silver,kag,Kinesis Silver
 floki,floki,FLOKI
-the-graph,grt,The Graph
-olympus,ohm,Olympus
-ape-and-pepe,apepe,Ape and Pepe
 spx6900,spx,SPX6900
-lighter,lit,Lighter
+doublezero,2z,DoubleZero
+jasmycoin,jasmy,JasmyCoin
+usdai,usdai,USDai
+kaia,kaia,Kaia
+crvusd,crvusd,crvUSD
+frax,frax,Legacy Frax Dollar
+ape-and-pepe,apepe,Ape and Pepe
+the-graph,grt,The Graph
 syrup,syrup,Maple Finance
-river,river,River
-pyth-network,pyth,Pyth Network
+official-fo,fo,Official FO
+zebec-network,zbcn,Zebec Network
 optimism,op,Optimism
-btse-token,btse,BTSE Token
+pyth-network,pyth,Pyth Network
+plasma,xpl,Plasma
+iota,iota,IOTA
+kite-2,kite,Kite
+pieverse,pieverse,Pieverse
+olympus,ohm,Olympus
+compound-governance-token,comp,Compound
+terra-luna,lunc,Terra Luna Classic
+lighter,lit,Lighter
+reallink,real,RealLink
+ethgas-2,gwei,ETHGas
+ethereum-name-service,ens,Ethereum Name Service
+genius-3,genius,Genius
 usda-2,usda,USDa
 agora-dollar,ausd,AUSD
-vision-3,vsn,Vision
-ethereum-name-service,ens,Ethereum Name Service
-blockchain-capital,bcap,Blockchain Capital
-the-sandbox,sand,The Sandbox
+theta-token,theta,Theta Network
 the9bit,9bit,The9bit
-undeads-games,uds,Undeads Games
-telcoin,tel,Telcoin
-terra-luna,lunc,Terra Luna Classic
-neo,neo,NEO
-tradable-na-rent-financing-platform-sstn,pc0000031,Tradable NA Rent Financing Platform SSTN
-starknet,strk,Starknet
-axie-infinity,axs,Axie Infinity
-reallink,real,RealLink
-re-protocol-reusd,reusd,Re Protocol reUSD
-helium,hnt,Helium
-swissborg,borg,SwissBorg
-dogwifcoin,wif,dogwifhat
-wefi,wfi,WeFi
-chain-2,xcn,Onyxcoin
-build-on,b,BUILDon
-story-2,ip,Story
 pendle,pendle,Pendle
-nusd-2,nusd,Neutrl USD
-spiko-us-t-bills-money-market-fund,ustbl,Spiko US T-Bills Money Market Fund
+undeads-games,uds,Undeads Games
+the-sandbox,sand,The Sandbox
+tradable-na-rent-financing-platform-sstn,pc0000031,Tradable NA Rent Financing Platform SSTN
+helium,hnt,Helium
+starknet,strk,Starknet
+btse-token,btse,BTSE Token
+vision-3,vsn,Vision
+neo,neo,NEO
+telcoin,tel,Telcoin
+dogwifcoin,wif,dogwifhat
+fartcoin,fartcoin,Fartcoin
+humanity,h,Humanity
+re-protocol-reusd,reusd,Re Protocol reUSD
+swissborg,borg,SwissBorg
+axie-infinity,axs,Axie Infinity
+apxusd,apxusd,apxUSD
+story-2,ip,Story
+skyai,skyai,SkyAI
+chain-2,xcn,Onyxcoin
+grass,grass,Grass
 decentraland,mana,Decentraland
 raydium,ray,Raydium
-trust-wallet-token,twt,Trust Wallet
-fartcoin,fartcoin,Fartcoin
-mx-token,mx,MX
+nusd-2,nusd,Neutrl USD
 falcon-finance-ff,ff,Falcon Finance
-bnb48-club-token,koge,KOGE
+wefi,wfi,WeFi
+spiko-us-t-bills-money-market-fund,ustbl,Spiko US T-Bills Money Market Fund
+trust-wallet-token,twt,Trust Wallet
 walrus-2,wal,Walrus
-theta-token,theta,Theta Network
-compound-governance-token,comp,Compound
-grass,grass,Grass
+mx-token,mx,MX
+tradable-apac-diversified-finance-provider-sstn,pc0000033,Tradable APAC Diversified Finance Provider SSTN
+bnb48-club-token,koge,KOGE
+circle-internet-group-ondo-tokenized-stock,crclon,Circle Internet Group (Ondo Tokenized Stock)
+sonic-3,s,Sonic
+convex-finance,cvx,Convex Finance
 satoshi-stablecoin,satusd,Satoshi Stablecoin
 fidelity-digital-interest-token,fdit,Fidelity Digital Interest Token
-sonic-3,s,Sonic
-humanity,h,Humanity
-safepal,sfp,SafePal
-convex-finance,cvx,Convex Finance
-stasis-eurs,eurs,STASIS EURO
+centrifuge-2,cfg,Centrifuge
+gala,gala,GALA
 newton-project,ab,AB
-gusd,gusd,GUSD
+onyc,onyc,Onchain Yield Coin
+stasis-eurs,eurs,STASIS EURO
+safepal,sfp,SafePal
 zano,zano,Zano
 zksync,zk,ZKsync
-flying-tulip,ft,Flying Tulip
+gusd,gusd,GUSD
+usa,usat,USAT
 basic-attention-token,bat,Basic Attention
-circle-internet-group-ondo-tokenized-stock,crclon,Circle Internet Group (Ondo Tokenized Stock)
-gala,gala,GALA
-ecash,xec,eCash
 thorchain,rune,THORChain
-quantum-resistant-ledger,qrl,Quantum Resistant Ledger
-theo-short-duration-us-treasury-fund,thbill,Theo Short Duration US Treasury Fund
-origintrail,trac,OriginTrail
-onyc,onyc,Onchain Yield Coin
-apollo-diversified-credit-securitize-fund,acred,Apollo Diversified Credit Securitize Fund
-gekko,gekko,GEKKO
-vaulta,a,Vaulta
-sosovalue,soso,SoSoValue
-golem,glm,Golem
-qubic-network,qubic,Qubic
-banana-for-scale-2,bananas31,Banana For Scale
-chutes,sn64,Chutes
-ozone-chain,ozo,Ozone Chain
-avant-usd,avusd,Avant USD
+asteroid-shiba,asteroid,Asteroid Shiba
 jito-governance-token,jto,Jito
-aethir,ath,Aethir
-1inch,1inch,1INCH
-gmt-token,gomining,GoMining Token
-ultima,ultima,Ultima
-astherus-usdf,usdf,Aster USDF
+ecash,xec,eCash
+gekko,gekko,GEKKO
 frax-usd,frxusd,Frax USD
-cash-4,cash,CASH
-pleasing-usd,pusd,Pleasing USD
-akash-network,akt,Akash Network
-instadapp,fluid,Fluid
-gas,gas,Gas
-pieverse,pieverse,Pieverse
-sentient,sent,Sentient
-wemix-token,wemix,WEMIX
-tradable-singapore-fintech-ssl-2,pc0000023,Tradable Singapore Fintech SSL
-infinifi-usd,iusd,InfiniFi USD
-shuffle-2,shfl,Shuffle
-societe-generale-forge-eurcv,eurcv,EUR CoinVertible
-immutable-x,imx,Immutable
-cow-protocol,cow,CoW Protocol
-elrond-erd-2,egld,MultiversX
 arweave,ar,Arweave
-rollbit-coin,rlb,Rollbit Coin
-tokenize-xchange,tkx,Tokenize Xchange
+theo-short-duration-us-treasury-fund,thbill,Theo Short Duration US Treasury Fund
+akash-network,akt,Akash Network
+tradable-latam-fintech-sstn,pc0000097,Tradable LatAm Fintech SSTN
+sosovalue,soso,SoSoValue
+ribbita-by-virtuals,tibbir,Ribbita by Virtuals
+apollo-diversified-credit-securitize-fund,acred,Apollo Diversified Credit Securitize Fund
+immutable-x,imx,Immutable
+1inch,1inch,1INCH
+vaulta,a,Vaulta
+origintrail,trac,OriginTrail
+golem,glm,Golem
+avant-usd,avusd,Avant USD
+cash-4,cash,CASH
+ozone-chain,ozo,Ozone Chain
+societe-generale-forge-eurcv,eurcv,EUR CoinVertible
+ravedao,rave,RaveDAO
+instadapp,fluid,Fluid
+ultima,ultima,Ultima
+gmt-token,gomining,GoMining Token
+eigenlayer,eigen,EigenCloud (prev. EigenLayer)
+zero-gravity,0g,0G
+elrond-erd-2,egld,MultiversX
+pleasing-usd,pusd,Pleasing USD
+astherus-usdf,usdf,Aster USDF
+enjincoin,enj,Enjin Coin
+shuffle-2,shfl,Shuffle
