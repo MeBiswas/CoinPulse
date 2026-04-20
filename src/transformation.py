@@ -4,6 +4,7 @@ import pandas as pd
 
 from glob import glob
 from src.utils import PATHS
+from src.extraction import timestamp
 
 # Gobal
 logging.basicConfig(level=logging.INFO)
@@ -40,7 +41,7 @@ def transform_crypto_price_data(data):
             })
             
         df = pd.DataFrame(records)
-        df["timestamp"] = pd.Timestamp.now()
+        df["timestamp"] = pd.Timestamp(timestamp)
         
         return df
     except Exception as e:

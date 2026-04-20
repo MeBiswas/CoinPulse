@@ -1,6 +1,3 @@
-DROP TABLE IF EXISTS crypto_prices;
-DROP TABLE IF EXISTS crypto_coins;
-
 -- Dimension Table
 CREATE TABLE IF NOT EXISTS crypto_coins (
     id SERIAL PRIMARY KEY,
@@ -8,9 +5,6 @@ CREATE TABLE IF NOT EXISTS crypto_coins (
     name VARCHAR(100) NOT NULL UNIQUE,
     coin_id VARCHAR(100) NOT NULL UNIQUE
 );
-
-ALTER TABLE crypto_coins
-DROP CONSTRAINT IF EXISTS crypto_coins_name_key;
 
 -- Fact Table
 CREATE TABLE IF NOT EXISTS crypto_prices (
@@ -27,3 +21,16 @@ CREATE TABLE IF NOT EXISTS crypto_prices (
 -- Index for time-based queries
 CREATE INDEX IF NOT EXISTS idx_timestamp
 ON crypto_prices(timestamp);
+
+-- Staging tables
+CREATE TABLE IF NOT EXISTS staging_coins (
+    symbol VARCHAR(25),
+    name VARCHAR(100),
+    coin_id VARCHAR(100)
+);
+
+CREATE TABLE IF NOT EXISTS staging_prices (
+    coin_id VARCHAR(100),
+    timestamp TIMESTAMP,
+    price_usd NUMERIC(18,8)
+);
