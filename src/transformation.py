@@ -39,10 +39,10 @@ def transform_crypto_price_data(data):
                 "price_usd": y['usd']
             })
             
-            df = pd.DataFrame(records)
-            df["timestamp"] = pd.Timestamp.now()
-            
-            return df
+        df = pd.DataFrame(records)
+        df["timestamp"] = pd.Timestamp.now()
+        
+        return df
     except Exception as e:
         logging.error(f"Error occured: {e}")
 
