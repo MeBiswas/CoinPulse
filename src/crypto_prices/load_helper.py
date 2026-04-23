@@ -1,13 +1,11 @@
 # src/crypto_prices/load_helper.py
 
 import logging
-import pandas as pd
 from sqlalchemy import text
 
 # ---------------------------
 # UPSERT HELPER
 # ---------------------------
-
 def upsert_prices(engine, df):
     with engine.begin() as conn:
         
