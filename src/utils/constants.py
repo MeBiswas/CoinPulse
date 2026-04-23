@@ -12,5 +12,6 @@ ENDPOINTS = {
 
 PATHS = {
     'raw': BASE_DIR / 'data' / 'raw',
+    'csv_result': BASE_DIR / 'result',
     'processed': BASE_DIR / 'data' / 'processed'
 }

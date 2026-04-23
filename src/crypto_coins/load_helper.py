@@ -9,7 +9,6 @@ logging.basicConfig(level=logging.INFO)
 # ---------------------------
 # UPSERT HELPER
 # ---------------------------
-
 def upsert_coins(engine, df):
     with engine.begin() as conn:
         
