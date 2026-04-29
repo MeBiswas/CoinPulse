@@ -29,3 +29,9 @@ Thumbs.db
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Virtual Environment
+venv/
+
+# Airflow Docker
+airflow-docker/logs

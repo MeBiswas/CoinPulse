@@ -4,14 +4,14 @@ from sqlalchemy import text, create_engine
 
 from src.crypto_coins import upsert_coins
 from src.crypto_prices import upsert_prices
-from src.utils.config import db, db_user, db_pass
+from src.utils.config import db, db_user, db_pass, db_host
 
 # Gobal
 logging.basicConfig(level=logging.INFO)
         
 def get_engine():
     return create_engine(
-        f'postgresql+psycopg2://{db_user}:{db_pass}@localhost:5432/{db}'
+        f'postgresql+psycopg2://airflow:airflow@postgres:5432/airflow' # f'postgresql+psycopg2://{db_user}:{db_pass}@{db_host}:5432/{db}'
     )
 
 def initialize_schema(schema_path="sql/schema.sql"):
@@ -21,9 +21,8 @@ def initialize_schema(schema_path="sql/schema.sql"):
         with open(schema_path, 'r') as f:
             sql_commands = f.read()
         
-        with engine.connect() as conn:
+        with engine.begin() as conn:
             conn.execute(text(sql_commands))
-            conn.commit()
         logging.info("Schema initialized successfully.")
     except Exception as e:
         logging.error(f"Error initializing schema: {e}")
