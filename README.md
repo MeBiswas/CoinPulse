@@ -91,6 +91,38 @@ docker-compose up -d
 
 Access Airflow UI at `http://localhost:8080` (credentials: airflow/airflow)
 
+### 6. Running Complete Tests
+
+```bash
+pytest
+```
+
+### 7. Running Tests with Verbose Output
+```bash
+pytest -v
+```
+
+### 8. Running Specific Test Module
+```bash
+pytest tests/test_crypto_coins_transformer.py -v
+pytest tests/test_crypto_prices_transformer.py -v
+```
+
+### 9. Running Specific Test Class
+```bash
+pytest tests/test_crypto_coins_transformer.py::TestTransformCoinData -v
+```
+
+### 10. Running Specific Test Method
+```bash
+pytest tests/test_crypto_coins_transformer.py::TestTransformCoinData::test_transform_coin_data_success -v
+```
+
+### 11. Running Tests with Coverage Report
+```bash
+pytest --cov=src --cov-report=html
+```
+
 ## ▶️ Running the Pipeline
 
 ### Option 1: Via Airflow UI
