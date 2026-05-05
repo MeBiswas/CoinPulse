@@ -31,3 +31,4 @@ def transform_crypto_price_data(data):
         return df
     except Exception as e:
         logging.error(f"Error occured: {e}")
+        raise

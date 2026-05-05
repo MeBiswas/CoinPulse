@@ -37,7 +37,6 @@ class TestTransformCoinData:
         """Test handling of empty list"""
         # Act
         result = transform_coin_data([])
-        
         # Assert
         assert result is not None
         assert isinstance(result, pd.DataFrame)

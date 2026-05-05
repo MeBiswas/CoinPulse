@@ -14,9 +14,13 @@ def transform_coin_data(data):
         logging.error('No data to transform')
         return
     
+    if len(data) == 0:
+        return pd.DataFrame(columns=['coin_id', 'symbol', 'name'])
+    
     try:
         df = pd.DataFrame(data)
         new_df = df.loc[:, ['id', 'symbol', 'name']].rename(columns={'id': 'coin_id'})
         return new_df
     except Exception as e:
         logging.error(f"Error occured: {e}")
+        raise
