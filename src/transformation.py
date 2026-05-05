@@ -25,6 +25,7 @@ def load_latest_file(dataset_name):
         return data
     except Exception as e:
         logging.error(f"Error occured: {e}")
+        raise
         
 
 def save_processed(df, dataset_name):
